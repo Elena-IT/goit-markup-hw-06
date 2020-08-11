@@ -179,13 +179,14 @@ color: #212121;
   color: #757575;
 }
 .contact-data:hover,
-.contact-data:focus {
-  color: #2196f3;
-}
-.contact-data-icon:hover,
-.contact-data-icon:focus {
+.contact-data .contact-data-icon:focus {
   fill: #2196f3;
 }
+.contact-data:hover,
+.contact-data:focus {
+ color: #2196f3;
+}
+
 
 .list {
   padding: 0;
