@@ -1009,7 +1009,7 @@ position: absolute;
 
 <!--Формы--!>
 
-.modal-open-button,
+.data-modal-open,
 .feedback-form-submit-button {
  display: block;
   min-width: 200px;
@@ -1023,8 +1023,8 @@ position: absolute;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-open-button:hover,
-.modal-open-button:focus,
+.data-modal-open:hover,
+.data-modal-open:focus,
 .modal-submit-button:hover,
 .modal-submit-button:focus {
   background-color: #188ce8;
@@ -1089,11 +1089,16 @@ position: absolute;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  visibility: visible;
+  overflow-y: auto;
 }
 
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translate(100%)
 }
 
 .backdrop.is-hidden .modal {
@@ -1274,10 +1279,10 @@ position: absolute;
   background-origin: border-box;
 }
 
-.checkbox-label-text {
+.contact-form-checkbox-span {
   white-space: pre;
 }
-.checkbox-label-link {
+.contact-form-checkbox-span-link {
   text-decoration-line: underline;
   color: #2196f3;
 }
