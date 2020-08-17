@@ -1166,7 +1166,7 @@ position: absolute;
   padding-top: 11px;
   padding-right: 17px;
   padding-bottom: 11px;
-  padding-left: 41px;
+  /*padding-left: 41px;*/
 }
 
 .form-field-input:focus,
@@ -1175,7 +1175,7 @@ position: absolute;
 }
 .form-field-textarea {
   height: 120px;
-  padding: 11px 15px;
+  padding: 11px 10px;
   resize: none;
 }
 
