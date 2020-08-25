@@ -1104,6 +1104,7 @@ margin-left: 80px;
 
 .backdrop.is-hidden {
   opacity: 0;
+  
   visibility: hidden;
   pointer-events: none;
   transform: translate(100%)
