@@ -1062,6 +1062,8 @@ margin-left: 80px;
   border-radius: 4px;
   margin-right: 12px;
   background-color: #2f303a;
+  color: #eeeeee;
+  
 }
 
 .subscribe-form-input::placeholder {
@@ -1070,7 +1072,7 @@ margin-left: 80px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
+  text-decoration-color: white; }
 
 .subscribe-form-submit-button {
   display: inline-flex;
