@@ -48,10 +48,10 @@ list-style-type: none;
   margin-right: 0;
 }
 
-/*.contact-list-item {
+.contact-list-item {
   margin-right: 30px;
-  padding-bottom: 9px;
-}*/
+  
+}
 .site-nav .contact-list-item:last-child {
   margin-right: 0;
 }
